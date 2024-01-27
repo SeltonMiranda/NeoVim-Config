@@ -1,8 +1,7 @@
 vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.cmd("set tabstop=8")
+vim.cmd("set softtabstop=8")
+vim.cmd("set shiftwidth=8")
 vim.cmd("set number");
 vim.g.mapleader = " "
-vim.g.monokaipro_filter = "machine"
 

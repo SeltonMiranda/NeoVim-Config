@@ -1,6 +1,7 @@
 return {
-    "bluz71/vim-moonfly-colors",
-    name = "moonfly",
+    --"bluz71/vim-moonfly-colors",
+    "NLKNguyen/papercolor-theme",
+    --name = "moonfly",
     lazy = false,
     priority = 1000,
     opts = {
@@ -11,9 +12,10 @@ return {
       }
   },
       config = function()
-       vim.cmd[[colorscheme moonfly]]
-       vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
-       vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
+       vim.cmd[[set background=dark]]
+       vim.cmd[[colorscheme PaperColor]]
+       -- vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
+       -- vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
       end
   }
 
